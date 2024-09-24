@@ -35,16 +35,6 @@ nav a:hover {
   border-bottom: 2px solid;
   padding: 5px;
 }
-/* For background colors for each section */
-/* .bgBlack {
-  background-color: black;
-  color: white;
-}
-.bgWhite {
-  background-color: white;
-  color: black; */
-
-/* Section */
 section {
   height: 850px;
 }
@@ -183,7 +173,6 @@ section h2 {
   margin: 20px;
   border-radius: 30px;
 }
-
 .Project {
   display: flex;
   justify-content: space-evenly;
@@ -196,7 +185,6 @@ section h2 {
 .pro1 a {
   text-decoration: none;
 }
-
 .pro1 img {
   width: 380px;
   height: 280px;
