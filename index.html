@@ -1,143 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeevanantham</title>
+    <title>Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap" rel="stylesheet">
-    <link rel="icon" href="./assets/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body id="home">
-    <header>
-        <nav id="nav">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#Education">Education</a>
-            <a href="#SKills">Skills</a>
-            <a href="#hobbies">Hobbies</a>
-            <a href="#project">Project</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    <section class="container1 bgBlack">
-        <div class="about_me">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Jeevanantham / Web Developer</p>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">Jeevanantham</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="darkModeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
         </div>
-        <div class="profile_img">
-            <img src="./assets/img/Gallery.jpg" alt="Jeevanantham">
+    </nav>
+
+    <section id="home">
+        <div class="profile-container">
+            <img src="/image/jeeva.img.jpg" alt="Developer Photo" class="profile-photo">
+            <h1>Jeevanantham</h1>
+            <p>Web Developer</p>
         </div>
     </section>
 
-    <section class="bgWhite about">
-        <div>
-            <div>
-                <h2 id="about">
-                    About
-                </h2>
-            </div>
-            <div>
-                <p>"I'm interested in learning new and different things and I am enthusiastic about helping everyone. I am
-                    dedicated to achieving my career goals."</p>
-            </div class="about_img">
-        </div>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm interested in learning new and different things and I am enthusiastic about helping everyone. I am
+            dedicated to achieving my career goals</p>
     </section>
-    <section class="bgBlack">
-        <div>
-            <h2 id="Education">Education</h2>
-            <div class="Education">
-                <div>
-                    <ul>
-                        <li>10th Government Higher secondary school Madukkarai</li>
-                        <li>Sri Krrishana Polytecnic college</li>
-                        <li>Freshworks Software acadamy</li>
-                    </ul>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Language Skills</h3>
+                <div class="skill-item">
+                    <span>Listening</span>
+                    <div class="stars">★★★☆☆</div>
                 </div>
-                <div>
-                    <img src="./assets/img/GHSS.PNG" alt="">
-                    <img src="./assets/img/SKPTC.PNG" alt="">
+                <div class="skill-item">
+                    <span>Speaking</span>
+                    <div class="stars">★★☆☆☆</div>
                 </div>
-
-            </div>
-    </section>
-    </div>
-
-    <section class="bgWhitem ">
-
-        <h2 id="SKills" class="title">Skills</h2>
-
-        <div class="skills">
-            <div>
-                <img src="./assets/img/html2.png" alt="html" class="img">
-
-            </div>
-            <div>
-                <img src="./assets/img/css-3_5968242.png" alt="css" class="img">
-
-            </div>
-            <div>
-                <img src="./assets/img/js2.png" alt="js" class="img">
-
+                <div class="skill-item">
+                    <span>Reading</span>
+                    <div class="stars">★★☆☆☆</div>
+                </div>
+                <div class="skill-item">
+                    <span>Writing</span>
+                    <div class="stars">★☆☆☆☆</div>
+                </div>
             </div>
 
-        </div>
-    </section>
-
-    <section class=" bgBlack">
-        <h2 id="hobbies">Hobbies</h2>
-        <div class=" hobbies">
-            <div>
-                <img src="./assets/img/Travelling.jpg" alt="hobbies_img" class="himg">
-                <p> Travelling</p>
-
+            <div class="skill-category">
+                <h3>Life Skills</h3>
+                <div class="skill-item">
+                    <span>Social Skills</span>
+                    <div class="stars">★★★★☆</div>
+                </div>
+                <div class="skill-item">
+                    <span>Self Awareness and Self Management</span>
+                    <div class="stars">★★★★☆</div>
+                </div>
+                <div class="skill-item">
+                    <span>Adaptability and Lifelong Learning</span>
+                    <div class="stars">★★★★☆</div>
+                </div>
             </div>
-            <div>
-                <img src="./assets/img/Cap Cut Editing.png" alt="cap_cut_imh" class="himg">
-                <p>Cap Cut Editing</p>
-            </div>
-            <div>
-                <img src="./assets/img/Photography.jpg" alt="Photography" class="himg">
-                <p>Photography</p>
 
+            <div class="skill-category">
+                <h3>Technical Skills</h3>
+                <div class="skill-item">
+                    <span>HTML</span>
+                    <div class="stars">★★★☆☆</div>
+                </div>
+                <div class="skill-item">
+                    <span>CSS</span>
+                    <div class="stars">★★★☆☆</div>
+                </div>
+                <div class="skill-item">
+                    <span>JS</span>
+                    <div class="stars">★★★☆☆</div>
+                </div>
+                <div class="skill-item">
+                    <span>SQL</span>
+                    <div class="stars">★☆☆☆☆</div>
+                </div>
+                <div class="skill-item">
+                    <span>Python</span>
+                    <div class="stars">★★★☆☆</div>
+                </div>
+                <div class="skill-item">
+                    <span>problem solving</span>
+                    <div class="stars">★★★★★</div>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class=" bgBlack">
-        <h2 id="project">Project</h2>
-        <div class="Project">
-
-            <div class="pro1 form">
-                <a href="https://jeeva124-creator.github.io/contact-form-main/" target="_blank"><img
-                        src="./assets/img/project_1.jpg" alt="contact form main">Contact form main </a>
-            </div>
-            <div class="pro1 qr">
-                <a href="https://jeeva124-creator.github.io/Qr/" target="_blank"> <img src="./assets/img/project_2.jpg"
-                        alt="qr code component main">QR code component main
-                </a>
-            </div>
-        </div>
-        <div class="board">
-            <a href="https://jeeva124-creator.github.io/chess-bord/" target="_blank"><img
-                    src="./assets/img/project_3.png" alt="Chess board">
-                <p>Chess board</p>
-            </a>
-        </div>
-
-    </section>
-    <section class="bgWhite">
-        <h2 class="Contact" id="contact">Contact me</h2>
-        <div class="tack">
-            <p>LET'S TALK</p>
-        </div>
-        <div class="social">
-            <a href="mailto:jeevanantham.rangasamy@fssa.freshworks.com" target="_blank"><img src="" alt="">Email</a>
-            <a href="https://www.linkedin.com/in/jeevanantham-r-723731326/" target="_blank"><img src=""
-                    alt="">Linked</a>
-            <a href="https://github.com/jeeva124-creator" target="_blank"> Git Hub</a>
-            <a href="https://www.instagram.com/jiiva.0410_/" target="_blank">Instagram</a>
         </div>
     </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="/image/project_1.jpg" alt="Project 1" class="project-image">
+                <h3> Contact form</h3>
+                <p>A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, product management, and payment integration.</p>
+                <div class="project-links">
+                    <a href="https://github.com/jeeva124-creator/contact-form-main" class="project-link"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://jeeva124-creator.github.io/contact-form-main/" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="/image/project_3.png" alt="Project 2" class="project-image">
+                <h3>chess-bord
+                </h3>
+                <p>A responsive task management application built with Vue.js and Firebase. Includes real-time updates, task categorization, and team collaboration features.</p>
+                <div class="project-links">
+                    <a href="https://github.com/jeeva124-creator/chess-bord" class="project-link"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://jeeva124-creator.github.io/chess-bord/" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="/image/project_2.jpg" alt="Project 3" class="project-image">
+                <h3>QR code component</h3>
+                <p>A weather forecast dashboard using OpenWeather API. Features include 5-day forecast, location search, and weather alerts.</p>
+                <div class="project-links">
+                    <a href="https://github.com/jeeva124-creator/Qr" class="project-link"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://jeeva124-creator.github.io/Qr/" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://api.web3forms.com/submit"  method="POST">
+            <div class="contact-form">
+                 <!-- Replace with your Access Key -->
+            <input type="hidden" name="access_key" value="0ab04732-5eb8-4633-98d0-225466486b0b">
+                 <!-- Form Inputs. Each input must have a name="" attribute -->
+            <input type="text" name="name" required placeholder="Enter the name">
+            <input type="email" name="email" required  placeholder="Enter The Email">
+            <textarea name="message" required placeholder="enter the message"> </textarea>
+        
+            <!-- Honeypot Spam Protection -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+        
+            <!-- Custom Confirmation / Success Page -->
+            <button type="submit">Submit Form</button>
+            </div>
+        </form>
+        
+    </section>
+
+    <footer>
+       
+        </form>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/jeeva124-creator"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jeevanantham-r-723731326"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/jiiva.0410_/"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2024 Developer Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
