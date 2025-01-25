@@ -37,6 +37,7 @@ nav {
     z-index: 1000;
 }
 
+
 .nav-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -76,6 +77,7 @@ nav {
     font-size: 1.2rem;
 }
 
+
 section {
     padding: 5rem 2rem;
     max-width: 1200px;
@@ -88,6 +90,16 @@ section {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+.mainproject{
+    padding: 0.6rem;
+    margin: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  text-decoration: none;
 }
 
 .profile-photo {
